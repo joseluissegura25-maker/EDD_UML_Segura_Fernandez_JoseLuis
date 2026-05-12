@@ -1,5 +1,5 @@
 # Modelado de Comportamiento en Sistemas de E-commerce
-
+# Autor: Jose Luis Segura Fernandez
 1. ## Explicación técnica del proceso modelado.
 
 Este proyecto consiste en el diseño de un diagrama con UML  que representa el proceso de "Confirmación de Pedido" de una tienda online. El sistema tiene las siguientes etapas:
@@ -9,7 +9,7 @@ Este proyecto consiste en el diseño de un diagrama con UML  que representa el p
 * **Fase de Post-Pago (Concurrencia Crítica):** Si el pago resulta exitoso, el sistema inicia tres tareas paralelas: se registra el pedido en la base de datos, se genera la factura en PDF y se notifica por correo electrónico.  
 * **Cierre:** El flujo termina mostrando un mensaje de confirmación al cliente una vez todas las tareas paralelas hayan acabado.
 
-**2\. Inserción de la imagen del diagrama** El diagrama que representa este flujo de trabajo complejo se encuentra en el repositorio, específicamente en /img. Aun así, adjunto la imagen del diagrama. (Referencia al archivo: image\_3.png)
+**2\. Inserción de la imagen del diagrama** El diagrama que representa este flujo de trabajo complejo se encuentra en el repositorio, específicamente en /img. Aun así, adjunto la imagen del diagrama. (Referencia al archivo: [diagrama.png](img/diagrama.png)
 
 **3\. Justificación del uso de los nodos de sincronización**
 
